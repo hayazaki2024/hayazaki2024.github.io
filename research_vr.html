@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>早崎雅人の自己紹介ホームページ</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="早崎雅人の自己紹介ホームページ">
+		<meta name="keywords" content="AI,深層学習,模倣学習,ロボット制御,ロボット,タスク自動化,鵜,鵜飼,長良川鵜飼,うかい,長良川うかい,VR,鵜のみ,うのみ,鮎,のみこみ">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/openclose.js"></script>
+		<script src="js/fixmenu_pagetop.js"></script>
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div id="container">
+
+			<header>
+				<!-- <h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="RESEARCH_2 VR"></a></h1> -->
+				<!-- <aside id="mainimg">
+				<img src="images/VR_main_logo.png" alt="">
+				</aside> -->
+			</header>
+
+			<div id="contents">
+
+				<div id="main">
+
+					<section>
+
+						<h2><strong class="color2">お前は今から鵜だ ~長良川鵜飼での鮎まるのみ体験~</strong></h2>
+						<a href="https://masato-hayazaki.github.io/index.html">
+						<img src="images/VR_main_logo.png" alt="">
+						</a>
+						<h3><strong class="color3">作品詳細</strong></h3>
+						<p>
+							この作品をより詳しく説明した公式サイトを作成しております.<br />
+							詳しくは<a href="https://masato-hayazaki.github.io/index.html">こちら</a>をご覧ください.
+							
+						</p>
+
+						<h3><strong class="color3">作品概要</strong></h3>
+						<p>
+							この作品は装置とVRを用いることで, 体験者が鵜飼における鵜となって川に潜って鮎をとる体験を可能にするものとなっています。
+							
+						</p>
+						<h3><strong class="color3">作品の目的</strong></h3>
+						<p>
+							本作品は岐阜の伝統行事である「鵜飼」をより多くの人に興味を持ってもらうためのきっかけづくりとなることを願って作成されました。<br />
+							また, 鵜飼における鵜匠になる作品は既に存在していたことに加えて, チームメンバーの一人が「鵜の方になったら面白いのでは」と言ったことを機に鵜匠ではなく鵜になる体験として本作品を制作しました。
+						</p>
+						<h3><strong class="color3">遊び方</strong></h3>
+						<p>
+							1. 各種装置を取り付けます。(装置の詳細は下に記載しています) <br />
+							2. 長良川の風景が目の前に広がります。 <br />
+							3. お辞儀をするように体を前に倒すと川に潜ります。 <br />
+							4. 鮎が近くに来たらチャンス! 素早く体を起こして上を向きます。 <br />
+							5. 鮎をのみこむアニメーションと音が再生されると同時に装置が作動して鮎をのみこむ感覚を体験できます。
+						</p>
+	
+						<h3><strong class="color3">各種装置の紹介 (2023年11月18日(土) 時点での装置)</strong></h3>
+						<div class="list">
+							<img src="images/Hardware/stomach.png">
+							<img src="images/Hardware/stomach_2.png"> 	
+						</div>
+
+						<p><strong class="color1">腹結 (<a href="#references">[1]</a>を参考に作成)</strong><br>
+						<p>鮎をのみこむ感覚を再現する装置です。
+							本体は腹に取り付けますが, 紐の先端は首に取り付けます。
+							紐の先端に接着電極がついており, 首に接着電極を貼り付けます。
+							この状態で下側の箱内のサーボモーターを回転させることで紐が引っ張られます。
+							このとき, のどの皮も同時に引っ張られるため, のみこんだ感覚を体感できます。
+						</p>
+
+	
+						<div class="list">
+							<img src="images/Hardware/neck.png">
+							<img src="images/Hardware/neck_2.png"> 
+						</div>
+						<p><strong class="color1">首結</strong><br>
+						<p>鮎を飲み込んだ際に喉が冷たくなる感覚を再現する装置です。
+							装置作動時にサーボモーターが回転して先端のペルチェ素子が接触することにより
+							のどが一瞬冷たくなります。
+						</p>
+	
+						<div class="list">
+							<img src="images/Hardware/beak.png">
+							<img src="images/Hardware/beak_2.png"> <!--要修正-->	
+						</div>
+						<p><strong class="color1">嘴(くちばし)</strong><br>
+							<p>鮎をくわえたときに鮎が暴れる感覚を再現する装置です。
+								この装置の内部には振動モーターが搭載されており, 
+								鮎をとると作動して装置が小刻みに動きます。
+	
+							</p>
+	
+						<p>
+							参考文献    <br />
+							<a id="references">[1]</a> IZUMI MIZOGUCHI, SHO SAKURAI, KOICHI HIROTA, and TAKUYA NOJIMA. Grutio: System for Reproducing Swallowing Sensation Using Neck-Skin Movement. IEEE published. 2021.https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9490237（参照 2023-05-14）
+						</p>
+	
+					</section>
+
+					<section>
+
+						<h2><strong class="color2">体験している様子</strong></h2>
+						<div class="responsive">
+							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/tLf6mZCrH4U?si=lTe1jYA8PNnHwtWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						
+						
+					</section>
+
+
+					<section id="new">
+						<h2><strong class="color2">大会出場・受賞歴</strong></h2>
+							<dl>
+								
+								<dt>2024/04/10</dt>
+								<dd><a href="https://laval-virtual.com/en/revolution/"> フランスのVRの国際学会 Laval Virtual出場</a></dd>
+								<dt>2023/12/04</dt>
+								<dd><a href="https://ivrc.net/2023/release3/" >Interverse Virtual Reality Challenge(IVRC) 2023 LEAP STAGE 「Laval Virtual Prize」</a></dd>
+								<dt>2023/11/18</dt>
+								<dd><a href="https://ivrc.net/2023/release3/" >Interverse Virtual Reality Challenge(IVRC) 2023 LEAP STAGE「ぴちきょ賞」</a></dd>
+								<dt>2023/09/12</dt>
+								<dd><a href="https://ivrc.net/2023/release2/">Interverse Virtual Reality Challenge(IVRC) 2023 SEED STAGE「YAMAHA賞」</a></dd>
+							</dl>
+						<p class="r">&raquo;&nbsp;<a href="#">過去ログ</a></p>
+					</section>
+
+
+					
+
+
+				</div>
+				<!--/#main-->
+
+				<div id="sub">
+
+					<!--PC用（801px以上端末）メニュー-->
+					<nav id="menubar">
+						<h2>Contents</h2>
+						<ul>
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="research_ai.html">RESEARCH_1 AI</a></li>
+							<li><a href="research_vr.html">RESEARCH_2 VR</a></li>
+							<li><a href="contact.html">CONTACT & LINK</a></li>
+						</ul>
+					</nav>
+
+					
+
+				</div>
+				<!--/#sub-->
+
+			</div>
+			<!--/#contents-->
+
+		</div>
+		<!--/#container-->
+
+		<footer>
+			<small>Copyright&copy; <a href="index.html">早崎雅人の自己紹介ホームページ</a> All Rights Reserved.</small>
+			<span class="pr"><a href="http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+		</footer>
+
+		<!--小さな端末用（800px以下端末）メニュー-->
+		<nav id="menubar-s">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="research_ai.html">RESEARCH_1 AI</a></li>
+				<li><a href="research_vr.html">RESEARCH_2 VR</a></li>
+				<li><a href="contact.html">CONTACT & LINK</a></li>
+			</ul>
+		</nav>
+
+		<!--ページの上部に戻る「↑」ボタン-->
+		<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+		<!--メニュー開閉ボタン-->
+		<div id="menubar_hdr" class="close"></div>
+		<!--メニューの開閉処理条件設定　800px以下-->
+		<script>
+		if (OCwindowWidth() <= 800) {
+			open_close("menubar_hdr", "menubar-s");
+		}
+		</script>
+
+		<!--lightbox用jsファイルの読み込み-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
+
+	</body>
+</html>
